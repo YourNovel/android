@@ -1,0 +1,5 @@
+package com.github.com.yournovel.android.constant
+
+enum class Theme {
+    Dark, Light, Auto, Transparent, EInk;
+}

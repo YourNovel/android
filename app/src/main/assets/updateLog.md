@@ -36,6 +36,6 @@
 
 ----
 
-* [2023年日志](https://github.com/gedoor/legado/blob/record2023/app/src/main/assets/updateLog.md)
-* [2022年日志](https://github.com/gedoor/legado/blob/record2022/app/src/main/assets/updateLog.md)
-* [2021年日志](https://github.com/gedoor/legado/blob/record2021/app/src/main/assets/updateLog.md)
+* [2023年日志](https://github.com/YourNovel/android/blob/record2023/app/src/main/assets/updateLog.md)
+* [2022年日志](https://github.com/YourNovel/android/blob/record2022/app/src/main/assets/updateLog.md)
+* [2021年日志](https://github.com/YourNovel/android/blob/record2021/app/src/main/assets/updateLog.md)
