@@ -157,7 +157,7 @@ jobs:
       VERSION: ${{ needs.prepare.outputs.version }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: apk/
 
@@ -214,7 +214,7 @@ jobs:
       LANZOU_URL: ${{ secrets.LANZOU_URL }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: apk/
       - working-directory: apk/
@@ -232,7 +232,7 @@ jobs:
     if: ${{ github.event_name != 'pull_request' && github.actor == 'gedoor' }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: apk/
       - working-directory: apk/
@@ -255,7 +255,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: apk/
       - working-directory: apk/
